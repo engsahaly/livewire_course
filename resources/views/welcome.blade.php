@@ -834,11 +834,14 @@
 </head>
 
 <body class="antialiased">
-    @livewire('inline-comp')
-    {{-- <livewire:show-post /> --}}
+    @livewire('test-properties', ['name' => 'Mahmoud'])
+    <livewire:test-properties name="Ahmed">
+        {{-- @livewire('inline-comp') --}}
+        {{-- <livewire:show-post /> --}}
 
-    {{-- @livewireScripts --}}
-    <livewire:scripts />
+        {{-- @livewireScripts --}}
+        <livewire:scripts />
+
 </body>
 
 </html>
