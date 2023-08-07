@@ -838,10 +838,19 @@
         <livewire:test-properties name="Ahmed"> --}}
     {{-- @livewire('inline-comp') --}}
     {{-- <livewire:show-post /> --}}
-    @livewire('test-actions')
+    {{-- @livewire('test-actions') --}}
+    @livewire('first-event')
 
     {{-- @livewireScripts --}}
     <livewire:scripts />
+    <script>
+        Livewire.on('fire', function() {
+            alert('A javascript listener for fire event');
+        })
+        // window.addEventListener('fire', function() {
+        //     alert('This is the second way of receing javascript listener');
+        // })
+    </script>
 
 </body>
 
