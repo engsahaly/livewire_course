@@ -839,16 +839,25 @@
     {{-- @livewire('inline-comp') --}}
     {{-- <livewire:show-post /> --}}
     {{-- @livewire('test-actions') --}}
-    @livewire('first-event')
+    {{-- @livewire('first-event') --}}
+    {{-- @livewire('try-hooks') --}}
+
+    @livewire('parent-component')
+
+
 
     {{-- @livewireScripts --}}
     <livewire:scripts />
     <script>
-        Livewire.on('fire', function() {
-            alert('A javascript listener for fire event');
-        })
+        // Livewire.on('fire', function() {
+        //     alert('A javascript listener for fire event');
+        // })
         // window.addEventListener('fire', function() {
         //     alert('This is the second way of receing javascript listener');
+        // })
+        // Livewire.hook('component.initialized', (component) => {
+        //     alert('Hello from javascript hook');
+        //     console.log(component.fingerprint['name']);
         // })
     </script>
 
