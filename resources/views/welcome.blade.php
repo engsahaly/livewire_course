@@ -26,8 +26,8 @@
     {{-- @livewire('first-event') --}}
     {{-- @livewire('try-hooks') --}}
     {{-- @livewire('parent-component') --}}
-    @livewire('validation-component')
-
+    {{-- @livewire('validation-component') --}}
+    @livewire('files-component')
 
     {{-- @livewireScripts --}}
     <livewire:scripts />
