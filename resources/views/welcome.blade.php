@@ -29,7 +29,8 @@
     {{-- @livewire('validation-component') --}}
     {{-- @livewire('files-component') --}}
     {{-- @livewire('search-component') --}}
-    @livewire('flash-component')
+    {{-- @livewire('flash-component') --}}
+    @livewire('loading-component')
 
     {{-- @livewireScripts --}}
     <livewire:scripts />
