@@ -30,7 +30,8 @@
     {{-- @livewire('files-component') --}}
     {{-- @livewire('search-component') --}}
     {{-- @livewire('flash-component') --}}
-    @livewire('loading-component')
+    {{-- @livewire('loading-component') --}}
+    @livewire('polling-component')
 
     {{-- @livewireScripts --}}
     <livewire:scripts />
