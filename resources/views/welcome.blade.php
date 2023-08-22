@@ -33,7 +33,8 @@
     {{-- @livewire('loading-component') --}}
     {{-- @livewire('polling-component') --}}
     {{-- @livewire('fetch-component') --}}
-    @livewire('offline-component')
+    {{-- @livewire('offline-component') --}}
+    @livewire('dirty-component')
 
     {{-- @livewireScripts --}}
     <livewire:scripts />
