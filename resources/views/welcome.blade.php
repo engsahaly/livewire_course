@@ -31,7 +31,8 @@
     {{-- @livewire('search-component') --}}
     {{-- @livewire('flash-component') --}}
     {{-- @livewire('loading-component') --}}
-    @livewire('polling-component')
+    {{-- @livewire('polling-component') --}}
+    {{-- @livewire('fetch-component') --}}
 
     {{-- @livewireScripts --}}
     <livewire:scripts />
